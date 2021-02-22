@@ -3,12 +3,181 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Kronos - Home</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='vendor/css/bootstrap.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='src/css/kronos.css'>
+    <script src='vendor/js/bootstrap.min.js'></script>
+    <script src='vendor/js/jquery-2.2.4.min.js'></script>
+    <script src='src/js/header.js'></script>
+    
 </head>
-<body>
+<body class="kronos-site">
+
+  <div class="kronos-top-block-container" style="background-image:url('assets/images/background.png')">
+    <nav class="navbar smart-scroll navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="kronos-logo" src="assets/images/kronos-logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <svg viewBox="0 0 100 80" width="30" height="30">
+              <rect width="100" height="20"></rect>
+              <rect y="30" width="100" height="20"></rect>
+              <rect y="60" width="100" height="20"></rect>
+          </svg>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us" tabindex="-1" aria-disabled="true">About</a>
+            </li>
+          </ul>
+          <button class="btn btn-success">Contact Us</button>
+        </div>
+      </div>
+    </nav>
+    <div class="kronos-block-container">
+      <svg class="kronos-position-absolute" width="287" height="212" viewBox="0 0 287 212" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 -2.036)" fill="none" fill-rule="evenodd"><rect stroke="#7542E5" transform="rotate(49 201.5 50)" x="162" y="33" width="79" height="34" rx="17"/><circle stroke="#FF9640" cx="81.5" cy="131.5" r="81.5"/><path d="M273.936 3.676a3.873 3.873 0 0 1-.279 5.393l-.087.086a3.674 3.674 0 0 0-.221 5.158c1.353 1.497 3.649 1.639 5.16.318l.098-.082a3.895 3.895 0 0 1 5.444.334 3.88 3.88 0 0 1-.286 5.483c-4.706 4.228-11.954 3.84-16.185-.86-4.253-4.706-3.884-11.944.821-16.172a3.89 3.89 0 0 1 5.452.245l.042.048.04.05z" fill="#F80089"/></g></svg>
+      <div class="kronos-block-inner-container">
+        <p class="kronos-top-left-border"></p>
+        <div class="kronos-heading-block">
+          <h1 class="kronos-h1">The Tech Society</h1>
+          <h1 class="kronos-h1">of SSCBS</h1>
+        </div>
+        <p class="kronos-desc-block">
+          Here goes the description section where we write the description of our website
+        </p>
+        <button class="kronos-button">Contact Us</button>
+      </div>
+    </div>
+  </div>
+    
+    
+    <!-- about us-->
+    
+    <section id="about-us">
+
+        <div class="container-fluid">
+            
+            <div class="row">
+       
+                <div class="col-lg-6">
+          
+                     <img class="abt-us-img" src="assets/images/tech.jpg" alt="img">
+      
+                </div>
+    
+                <div class="col-lg-6 abt-us">
+                    
+                    <marquee behavior="slide" direction="left" scrollamount="50">
+                    <h2 class="abt-us-heading">About</h2> <h2 class="abt-us-heading"> <span id="abh">KRO</span><span>NOS</span></h2>
+                    </marquee>
+                    
+                    <p class="a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span>sed do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    
+                    <p class="a">Generate Lorem Ipsum placeholder <span>text. Select the</span> number of characters, words, sentences or paragraphs, and hit generate!</p>
+                    
+                    <p class="a">m dolor sit amet, consectetur adipiscing elit, <span>sed do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                      
+                </div>
+        
+         
+            </div>
+                        
+        </div>
+    
+    </section>
+    
+    
+    <section id="latest-news">
+
+        <div class="container-fluid">
+        
+            <div class="events-con">
+            
+                <h2 class="event-heading">"Latest News"</h2>
+                
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                      
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>                        
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>  
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    
+                    <div class="carousel-inner">
+                       
+                        <div class="carousel-item active">
+                            <img class="caro-pic" src="assets/images/car-pic.jpg" class="d-block w-100" alt="...">    
+                        </div>
+                       
+                        <div class="carousel-item 2ndcarousel-item">
+                            <img class="caro-pic" src="assets/images/car-pic.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                      
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            
+                </div>
+        
+            </div>
+        
+        </div>
+    
+    </section>
+    
+    <section id="events">
+    
+        <h2 class="up-event-heading">Upcoming Events...</h2>
+        <div class="card-group">
+            <div class="card event-card rounded">
+                <img src="assets/images/abt-us-bg-img.jpg" class="card-img-top rounded" alt="img">
+                <div class="card-body">
+                    <h5 class="card-title">EVENT 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-dark">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card event-card rounded">
+                <img src="assets/images/abt-us-bg-img.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EVENT 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-dark">Learn More</a>
+                </div>                                
+            </div>
+
+            <div class="card event-card rounded">
+                <img src="assets/images/abt-us-bg-img.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EVENT 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-dark">Learn More</a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
     
 </body>
 </html>
